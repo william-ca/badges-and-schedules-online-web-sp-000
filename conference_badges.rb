@@ -6,4 +6,5 @@ def batch_badge_creator(speakers)
   speakers.map { |name| badge_maker(name) }
 end
 
-def assign_rooms()
+def assign_rooms(speakers)
+end
